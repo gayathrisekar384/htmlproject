@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website Template</title>
+</head>
+<style>
+    body{
+        background-image: url("res2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+    }
+#menu{
+        margin-left: 40%;
+       
+    }
+
+    #menu>li,a{
+        list-style: none;
+        display: inline-block;
+        padding:5px;
+        text-decoration: none;
+       border-radius: 45%;
+        color:darkgreen;
+        font-weight: bold;
+        
+    }
+    li>a:hover
+    {
+        font-size: large;
+        color:red;
+        font-weight: bold;
+        
+    }
+    #categories>li
+    {
+        padding: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        list-style: none;
+        border: 1px solid rgb(20, 19, 19);
+        border-radius: 3px;
+        color:red;
+        font-size: large;
+        font-weight: bold;  
+       
+    }
+    #categories>li:hover{
+     
+        font-size: 50px;
+        font-style: italic;
+    }
+  .show 
+    {
+        width:100%;
+        height:50%; 
+        border-radius: 10px;
+        margin: 20px;
+        /* border:1px solid black; */
+        box-shadow: 5px 5px 8px blue, 10px 10px 8px rgb(117, 119, 209), 15px 15px 8px rgb(235, 245, 181)inset ;
+    }
+ p
+ {
+    color:darkblue;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    transition: font-size 5s;
+ }
+ p:hover{
+   font-size:25px; ;
+    background-color: antiquewhite;
+ }
+
+</style>
+<body >
+   <div>
+    <p style="background-color: darkblue;">
+    <ul id ="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Ourproduct</a></li>
+        <li><a href="#">Myorders</a></li>
+        <li><a href="#">Favorite List</a></li>
+        <li><input type="text" placeholder="search"></li>
+        <li><input type="submit" value="search"></li>
+    </ul>
+</p>
+</div>
+   <div>
+        <div class="menu2" style="width:30%;height:45%;float:left;margin-left:25px;">
+            <p> Categories:</p>
+           <ul id="categories">
+                <li class="soup">soup</li>
+                <li class="sandwich">sandwich</li>
+                <li>Burgers</li>
+                <li>Deserts</li>
+                <li>Pizza</li>
+                <li>Dosa</li>
+                <li>Cake</li>
+                <li>Ice-Cream</li>
+           </ul> 
+          
+           <!-- <marquee><h1 style="color:purple;float:left">Deligious Food Take and Taste., Buying and Tasting so Yummy........</h1></marquee> -->
+        </div>
+
+        <div style=" width:65%; height: 500px;float:right; display: flex;flex-wrap: wrap;">
+            <div style="background-image: url(burger.jfif);width:200px;height:200px;margin:20px; border-radius: 20px; background-size:cover;background-repeat: no-repeat;"></div>
+            <div style="background-image: url(non-veg.jfif);width:200px;height:200px;;margin:20px; border-radius: 20px;background-size:cover;background-repeat: no-repeat;"></div>
+            <div style="background-image: url(pizza.jfif);width:200px;height:200px;margin:20px; border-radius: 20px;background-size:cover;background-repeat: no-repeat;"></div>
+            <div style="background-image: url(soup.jfif);width:200px;height:200px; margin:20px; border-radius: 20px;background-size:cover;background-repeat: no-repeat;"></div>
+            <div style="background-image: url(ice\ creams.jfif);width:200px;height:200px; margin:20px; border-radius: 20px;background-size:cover;background-repeat: no-repeat;"></div>
+            <div style="background-image: url(sweet.jfif);width:200px;height:200px; margin:20px; border-radius: 20px;background-size:cover;background-repeat: no-repeat;"></div>
+            
+            <marquee><h1 style="color:purple;float:left">Deligious Food Take and Taste., Buying and Tasting so Yummy........</h1></marquee>
+            <div class="show" >
+            <p><h2 style="text-align: center;">Today Special Receipe</h2></p>
+            <p class="soup-view">Veg Soup and Non-veg Soup are available.</p>
+            <p class="sandwich">Chees Sandwich and Mushroom Sandwich are available.</p>
+            <p>Mushroom Pizza,Red Chilly Pizza and Spicy Finger Chips</p>
+        </div>
+        </div>   
+        </div>  
+        
+    </div>
+ 
+   <!-- <div style="border:1px solid black; display:block;">
+    <marquee><h1 style="color:purple;float:left">Deligious Food Take and Taste., Buying and Tasting so Yummy........</h1></marquee>
+   </div> -->
+   
+</body>
+</html>
